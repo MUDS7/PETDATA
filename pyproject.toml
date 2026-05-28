@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "petdata"
+version = "0.1.0"
+description = "PyTorch project for PetData experiments."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "torch",
+    "torchvision",
+    "torchaudio",
+]
+
+[project.scripts]
+petdata-train = "petdata.main:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
