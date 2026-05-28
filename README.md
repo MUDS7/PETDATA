@@ -1,5 +1,7 @@
 # PetData
 
+[English](README.md) | [中文](README.zh-CN.md)
+
 Python + PyTorch project for fine-tuning EfficientNet-B0 on the local pet image
 classification dataset.
 
